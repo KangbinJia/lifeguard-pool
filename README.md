@@ -25,6 +25,17 @@ The goal is to illustrate how the fastest rescue route may not be a straight lin
    - The red dot is the drowning person.
 4. Press `Space` or click the green reset button to spawn a new random target and try again.
 
+## Streamlit version
+
+A web app version is available in `streamlit_app.py`.
+
+1. Install dependencies:
+   - `pip install -r requirements.txt`
+2. Run the Streamlit app:
+   - `streamlit run streamlit_app.py`
+3. Use the slider to choose the shoreline entry X coordinate.
+4. The app shows both your chosen path and the optimal path.
+
 ## Controls
 
 - Left click on the shoreline: choose a custom entry point.
